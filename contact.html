@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize1.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <div class="container"><!-- 追記 -->
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <!-- cleafixを追記-->
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area"> <!-- この行を追記 -->
+    <div class="wrapper clearfix"> <!-- この行を追記 -->
+    <aside class="side_menu">
+      <nav> <!--この行から追記 -->
+        <ul>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li class="point"><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav> <!-- この行まで追記 -->
+      <p class="banner"> <!--この行から追記 -->
+        <a href="#">
+
+        </a>
+      </p> <!-- この行まで追記 -->
+    </aside>
+    <article class="content">
+    <form>
+      <table class="contact">
+        <tr>
+          <th>お名前</th>
+            <td><input type="text" name="name" class="textarea"></td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td><input type="text" name="name" class="textarea"></td>
+        </tr>
+        <tr>
+          <th>性別</th>
+          <td><input type="radio" value="sex">男
+          <input type="radio" value="sex">女
+        </tr>
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td><textarea></textarea></td>
+        </tr>
+      </table>
+      <p class="button">
+        <input type="submit" class="submit" value="送信">
+      </p>
+    </form>
+    </article>
+   </div><!-- class="wrapper"  -->
+    <footer class="footer">
+      <!-- 追記 -->
+      <p>Copyright ©︎ 2018 DIVE INC ALL RIGHTS RESERVED.</p>
+    </footer>
+   </div> <!-- class="container"  -->
+  </body>
+</html>
